@@ -6,6 +6,7 @@
 **Team Members:** 1. Niharika Naik P 
                   2. Khushi Ojha 
                   3. Divija D
+                  4. Sujal Singh Rathore
 
 ---
 
