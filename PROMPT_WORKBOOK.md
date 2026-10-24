@@ -1,8 +1,11 @@
 # SRUJANA 2026: Official Prompt Workbook & Engineering Log
 **Project Title:** CircuPulse Campus — Predictive Circular-Resource Grid for a Multi-Building Campus  
-**Team:** Student Engineering Team (SRUJANA 2026 Hackathon)  
+**Team:** Revert (SRUJANA 2026 Hackathon)  
 **AI Mentorship Platform:** Google Antigravity / Gemini 3.8  
-**Date of Development:** 24 October 2026  
+**Date of Development:** 24 October 2026 
+**Team Members:** Niharika Naik P 
+                  Khushi Ojha
+                  Divija D
 
 ---
 
@@ -140,3 +143,4 @@ In accordance with official SRUJANA 2026 constraints:
 * **Continuous Model Retraining:** The current classifier uses fixed prior distributions computed from the initial 6,314 events. In a multi-semester deployment, an automated drift-detection mechanism should trigger continuous Bayesian parameter updates as packaging materials change.
 * **Physical Hardware Actuation:** While the edge classifier outputs motor routing signals in <1.5 ms, physical motorized diverter gates and automated greywater valves remain simulated in software.
 * **Natural Language Extraction:** Manual log notes are currently matched via keyword and time-window heuristics; future iterations could incorporate an embedded edge LLM for conversational maintenance work-order generation.
+
