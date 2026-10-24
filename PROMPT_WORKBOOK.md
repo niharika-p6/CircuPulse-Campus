@@ -3,10 +3,9 @@
 **Team:** Revert (SRUJANA 2026 Hackathon)  
 **AI Mentorship Platform:** Google Antigravity / Gemini 3.8  
 **Date of Development:** 24 October 2026 
-
-**Team Members:** Niharika Naik P 
-                  Khushi Ojha
-                  Divija D
+**Team Members: ** 1. Niharika Naik P 
+                  2. Khushi Ojha 
+                  3. Divija D
 
 ---
 
