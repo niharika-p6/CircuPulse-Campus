@@ -1,8 +1,8 @@
 """
-CircuPulse Campus — Modern, User-Friendly Streamlit Dashboard
--------------------------------------------------------------
-SRUJANA 2026: Prompt to Product Hackathon Entry
-Intuitive, simplified UI/UX with 4 clean navigation consoles.
+CircuPulse Campus — Predictive Circular-Resource Grid for a Multi-Building Campus
+---------------------------------------------------------------------------------
+SRUJANA 2026: Prompt to Product (P2P) Hackathon Solution
+Intuitive, clear, dedicated 6-view navigation with modern clean styling.
 """
 
 import streamlit as st
@@ -19,10 +19,12 @@ from modules.data_loader import (
     compute_campus_kpis
 )
 from modules.ui_views import (
-    render_command_center,
-    render_ai_engines,
-    render_resilience_and_forensics,
-    render_leaderboard_and_specs
+    render_executive_grid,
+    render_predictive_forecaster,
+    render_edge_sorter,
+    render_gateway_buffer,
+    render_forensics_and_incentives,
+    render_architecture_and_budget
 )
 
 
@@ -36,24 +38,21 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Modern Custom CSS Styling
+# Custom Modern CSS Styling
 st.markdown(
     """
     <style>
-    /* Global Font & Spacing */
     @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
     
     html, body, [class*="css"] {
         font-family: 'Plus Jakarta Sans', sans-serif;
     }
 
-    /* Top Padding Adjustment */
     .block-container {
         padding-top: 1.8rem;
         padding-bottom: 2rem;
     }
 
-    /* Metric Cards */
     .metric-card {
         background: #ffffff;
         border: 1px solid #e2e8f0;
@@ -86,13 +85,11 @@ st.markdown(
         margin-top: 6px;
     }
 
-    /* Sidebar Clean Styling */
     section[data-testid="stSidebar"] {
         background-color: #f8fafc;
         border-right: 1px solid #e2e8f0;
     }
 
-    /* Hide Default Streamlit Menu & Footer for Clean Presentation */
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
     header {visibility: hidden;}
@@ -103,7 +100,7 @@ st.markdown(
 
 
 # -------------------------------------------------------------------------
-# Cached Global Data Ingestion
+# Cached Global Data Loading
 # -------------------------------------------------------------------------
 @st.cache_data
 def load_all_cached_data():
@@ -123,7 +120,7 @@ with st.spinner("Connecting to campus resource grid telemetry..."):
 
 
 # -------------------------------------------------------------------------
-# Sidebar Navigation & Quick Guide
+# Sidebar Navigation (Dedicated 6 Consoles)
 # -------------------------------------------------------------------------
 st.sidebar.markdown(
     """
@@ -141,18 +138,19 @@ st.sidebar.markdown(
 st.sidebar.markdown("---")
 
 selected_view = st.sidebar.radio(
-    "Console Menu:",
+    "Navigation Console:",
     [
-        "🌟 Campus Command Center",
-        "🔮 AI Forecaster & Smart-Bin",
-        "📡 Resilience & Forensics",
-        "🏆 Eco-Leaderboard & Specs"
+        "🌐 Executive Campus Grid",
+        "🔮 12-Hour Predictive Forecaster",
+        "🗑️ Edge Smart-Bin Sorter",
+        "📡 Gateway Buffer & Recovery",
+        "🔍 Forensics & CircuCredits",
+        "⚙️ Architecture & Hardware Budget"
     ]
 )
 
 st.sidebar.markdown("---")
 
-# Quick Information Card
 st.sidebar.markdown(
     """
     <div style="background: white; border: 1px solid #e2e8f0; border-radius: 10px; padding: 12px; font-size: 0.8rem; color: #475569;">
@@ -173,14 +171,20 @@ st.sidebar.caption("Prompt to Product (P2P) • EcoGrid AI Architecture")
 # -------------------------------------------------------------------------
 # View Routing
 # -------------------------------------------------------------------------
-if selected_view == "🌟 Campus Command Center":
-    render_command_center(daily_df, bldgs_df, kpis)
+if selected_view == "🌐 Executive Campus Grid":
+    render_executive_grid(daily_df, bldgs_df, kpis)
 
-elif selected_view == "🔮 AI Forecaster & Smart-Bin":
-    render_ai_engines(hourly_df, bldgs_df, waste_tr_df, waste_te_df)
+elif selected_view == "🔮 12-Hour Predictive Forecaster":
+    render_predictive_forecaster(hourly_df, cal_df, bldgs_df)
 
-elif selected_view == "📡 Resilience & Forensics":
-    render_resilience_and_forensics(hourly_df, daily_df, logs_df, bldgs_df)
+elif selected_view == "🗑️ Edge Smart-Bin Sorter":
+    render_edge_sorter(waste_tr_df, waste_te_df)
 
-elif selected_view == "🏆 Eco-Leaderboard & Specs":
-    render_leaderboard_and_specs(daily_df, bldgs_df)
+elif selected_view == "📡 Gateway Buffer & Recovery":
+    render_gateway_buffer(hourly_df, bldgs_df)
+
+elif selected_view == "🔍 Forensics & CircuCredits":
+    render_forensics_and_incentives(daily_df, logs_df, bldgs_df)
+
+elif selected_view == "⚙️ Architecture & Hardware Budget":
+    render_architecture_and_budget()
