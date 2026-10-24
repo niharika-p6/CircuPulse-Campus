@@ -1,0 +1,9 @@
+﻿building_id,building_name,building_type,floors,area_sqm,design_capacity,has_solar,solar_capacity_kw,year_built,has_composter
+B01,Academic Block A,academic,4,9000,1200,1,120,2012,0
+B02,Academic Block B,academic,4,7500,900,0,0,2016,0
+B03,Central Library,library,3,5000,600,0,0,2014,0
+B04,Engineering Labs & Innovation Centre,labs,3,6000,500,1,80,2019,0
+B05,Boys Hostel,hostel,5,8500,800,0,0,2013,1
+B06,Girls Hostel,hostel,5,7000,600,0,0,2017,1
+B07,Food Court,food,2,3500,1500,1,60,2015,1
+B08,Admin Block,admin,3,2800,150,0,0,2012,0

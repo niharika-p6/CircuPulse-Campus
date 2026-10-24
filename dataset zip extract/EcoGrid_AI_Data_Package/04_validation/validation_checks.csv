@@ -1,0 +1,15 @@
+check,status,details
+All seven source datasets found,PASS,"Found 7 source Excel datasets: buildings, calendar, daily_summary, hourly_streams, manual_logs, waste_events_test, waste_events_train."
+buildings: row/column count retained,PASS,Original 8 rows x 10 columns; canonical CSV 8 rows x 10 columns.
+calendar: row/column count retained,PASS,Original 120 rows x 7 columns; canonical CSV 120 rows x 7 columns.
+daily_summary: row/column count retained,PASS,Original 960 rows x 14 columns; canonical CSV 960 rows x 14 columns.
+hourly_streams: row/column count retained,PASS,Original 23192 rows x 7 columns; canonical CSV 23192 rows x 7 columns.
+manual_logs: row/column count retained,PASS,Original 415 rows x 8 columns; canonical CSV 415 rows x 10 columns.
+waste_events_test: row/column count retained,PASS,Original 1601 rows x 9 columns; canonical CSV 1601 rows x 9 columns.
+waste_events_train: row/column count retained,PASS,Original 6314 rows x 10 columns; canonical CSV 6314 rows x 10 columns.
+Daily date-building key unique,PASS,0 duplicate date-building keys.
+Building metadata join complete,PASS,0 daily rows without building metadata.
+Calendar join complete,PASS,0 daily rows without calendar match.
+Calendar date unique,PASS,0 duplicate calendar dates.
+Train/test target separation,PASS,Training data has category target; test data does not.
+Manual log aliases documented,PASS,415 of 415 logs matched to building IDs; 0 remain unmatched/blank in normalized ID. Raw labels preserved.

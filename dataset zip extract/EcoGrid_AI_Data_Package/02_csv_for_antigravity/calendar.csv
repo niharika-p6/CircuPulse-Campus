@@ -1,0 +1,121 @@
+﻿date,day_of_week,day_type,event,avg_temp_c,rainfall_mm,humidity_pct
+2026-06-20,Saturday,semester_break,Summer break commencement & hostel inspection,24.4,0.0,72
+2026-06-21,Sunday,semester_break,,25.4,3.3,78
+2026-06-22,Monday,semester_break,,23.2,0.0,64
+2026-06-23,Tuesday,semester_break,Annual electrical substation servicing,26.8,0.0,69
+2026-06-24,Wednesday,semester_break,,26.0,0.0,69
+2026-06-25,Thursday,semester_break,,25.0,0.0,64
+2026-06-26,Friday,semester_break,,25.0,0.0,76
+2026-06-27,Saturday,semester_break,STP and rainwater harvesting plant maintenance,25.5,3.8,68
+2026-06-28,Sunday,semester_break,,25.1,0.0,65
+2026-06-29,Monday,semester_break,,25.1,0.0,69
+2026-06-30,Tuesday,semester_break,,26.2,0.0,72
+2026-07-01,Wednesday,semester_break,Summer internship & research bootcamp starts,25.8,4.6,69
+2026-07-02,Thursday,semester_break,,25.4,0.0,66
+2026-07-03,Friday,semester_break,,25.4,0.0,70
+2026-07-04,Saturday,semester_break,,24.6,25.6,80
+2026-07-05,Sunday,semester_break,,24.5,9.2,71
+2026-07-06,Monday,semester_break,Faculty Development Programme (FDP) on AI & Cloud,24.9,3.1,67
+2026-07-07,Tuesday,semester_break,,26.1,0.0,66
+2026-07-08,Wednesday,semester_break,,25.3,3.0,70
+2026-07-09,Thursday,semester_break,,24.0,0.8,76
+2026-07-10,Friday,semester_break,FDP valedictory session & lab calibration,24.1,22.8,88
+2026-07-11,Saturday,semester_break,,26.3,0.3,68
+2026-07-12,Sunday,semester_break,,25.0,9.6,74
+2026-07-13,Monday,semester_break,,25.5,0.0,71
+2026-07-14,Tuesday,semester_break,Campus IT infrastructure & server upgrade,26.0,8.3,76
+2026-07-15,Wednesday,semester_break,,27.7,0.0,72
+2026-07-16,Thursday,semester_break,,24.8,1.5,75
+2026-07-17,Friday,semester_break,Freshers admission counselling & hostel allotment begins,27.2,0.0,64
+2026-07-18,Saturday,semester_break,,24.2,4.6,62
+2026-07-19,Sunday,semester_break,New student check-in & parent welcome reception,25.9,0.0,68
+2026-07-20,Monday,working,Odd semester begins,24.3,2.4,70
+2026-07-21,Tuesday,working,Freshers orientation & library card registration,27.0,5.9,73
+2026-07-22,Wednesday,working,Campus induction & department lab safety briefing,26.7,0.0,66
+2026-07-23,Thursday,working,,27.0,0.0,67
+2026-07-24,Friday,working,,24.3,13.6,80
+2026-07-25,Saturday,weekend,Student council elections & club registration drive,25.8,18.4,83
+2026-07-26,Sunday,weekend,,25.2,0.0,73
+2026-07-27,Monday,working,,25.0,7.3,64
+2026-07-28,Tuesday,working,,26.2,3.8,64
+2026-07-29,Wednesday,working,Tree plantation drive by Green Campus Initiative,26.8,0.0,74
+2026-07-30,Thursday,working,,26.0,1.9,72
+2026-07-31,Friday,working,,24.7,11.0,79
+2026-08-01,Saturday,weekend,Inter-hostel sports league inauguration,24.4,13.0,76
+2026-08-02,Sunday,weekend,,26.4,26.4,85
+2026-08-03,Monday,working,,26.3,4.7,72
+2026-08-04,Tuesday,working,,26.7,0.0,64
+2026-08-05,Wednesday,working,Guest lecture on Sustainable Energy & Smart Grids,28.3,0.0,62
+2026-08-06,Thursday,working,,25.0,0.0,64
+2026-08-07,Friday,working,,28.1,16.2,80
+2026-08-08,Saturday,weekend,24-hour campus hackathon (high lab power & mess footfall),29.4,0.0,71
+2026-08-09,Sunday,weekend,,27.5,5.6,79
+2026-08-10,Monday,working,,26.8,0.0,69
+2026-08-11,Tuesday,working,,24.9,8.0,75
+2026-08-12,Wednesday,working,International Youth Day debate & seminar,27.0,0.0,75
+2026-08-13,Thursday,working,,25.5,0.0,65
+2026-08-14,Friday,working,,25.9,0.0,64
+2026-08-15,Saturday,holiday,Independence Day,25.6,0.0,66
+2026-08-16,Sunday,weekend,,25.6,17.6,80
+2026-08-17,Monday,working,,27.4,0.0,76
+2026-08-18,Tuesday,working,,25.4,0.0,67
+2026-08-19,Wednesday,working,Blood donation camp at student activity center,24.0,22.1,89
+2026-08-20,Thursday,working,,24.9,0.0,66
+2026-08-21,Friday,working,,24.5,10.2,77
+2026-08-22,Saturday,weekend,Cultural club open mic & drama auditions,23.8,16.2,82
+2026-08-23,Sunday,weekend,,24.9,1.9,71
+2026-08-24,Monday,working,,27.3,3.9,74
+2026-08-25,Tuesday,working,,25.3,0.0,65
+2026-08-26,Wednesday,working,Campus placement registration & mock test,26.3,0.0,74
+2026-08-27,Thursday,working,,24.5,3.4,74
+2026-08-28,Friday,working,,26.2,0.0,65
+2026-08-29,Saturday,weekend,National Sports Day inter-department tournament,23.9,4.2,73
+2026-08-30,Sunday,weekend,,25.1,3.5,66
+2026-08-31,Monday,working,,28.2,8.0,74
+2026-09-01,Tuesday,working,,25.4,0.0,63
+2026-09-02,Wednesday,working,Workshop on IoT Sensor Networks in Engineering Labs,27.2,0.0,71
+2026-09-03,Thursday,working,,26.4,2.0,81
+2026-09-04,Friday,working,,25.8,0.0,74
+2026-09-05,Saturday,weekend,Teachers Day celebration & faculty felicitation,25.3,0.0,71
+2026-09-06,Sunday,weekend,,27.4,0.0,64
+2026-09-07,Monday,working,,25.7,2.4,71
+2026-09-08,Tuesday,working,,27.4,6.1,77
+2026-09-09,Wednesday,working,Campus placement drive Day 1 (high computer lab usage),25.2,0.0,68
+2026-09-10,Thursday,working,,26.0,0.0,69
+2026-09-11,Friday,working,,26.1,9.1,68
+2026-09-12,Saturday,weekend,Robotics club bot-combat workshop & display,26.4,0.0,65
+2026-09-13,Sunday,weekend,,23.7,22.3,76
+2026-09-14,Monday,working,,24.9,9.1,82
+2026-09-15,Tuesday,working,Engineers Day: Prototype Expo & technical project showcase,24.5,34.4,94
+2026-09-16,Wednesday,working,,23.8,30.4,92
+2026-09-17,Thursday,working,,25.7,24.5,84
+2026-09-18,Friday,working,,26.6,0.0,62
+2026-09-19,Saturday,weekend,Alumni meet (food court very busy),23.8,0.0,69
+2026-09-20,Sunday,weekend,,23.0,23.8,82
+2026-09-21,Monday,working,,24.1,9.3,71
+2026-09-22,Tuesday,working,,25.6,10.3,75
+2026-09-23,Wednesday,working,Pre-midsem doubt clearing sessions & tutorials,28.1,0.0,68
+2026-09-24,Thursday,working,,25.2,6.3,72
+2026-09-25,Friday,working,Central Library 24x7 reading halls open for exam prep,26.0,3.5,67
+2026-09-26,Saturday,weekend,,24.2,13.5,74
+2026-09-27,Sunday,weekend,,24.7,0.0,68
+2026-09-28,Monday,exam,Mid-semester exams begin,23.7,0.0,73
+2026-09-29,Tuesday,exam,Mid-sem Day 2 (Core Engineering theory exams),25.8,0.0,62
+2026-09-30,Wednesday,exam,Mid-sem Day 3 (Departmental core theory exams),26.9,0.0,65
+2026-10-01,Thursday,exam,Mid-sem Day 4 (Mathematics & sciences papers),25.4,0.1,67
+2026-10-02,Friday,holiday,Gandhi Jayanti,26.1,31.6,89
+2026-10-03,Saturday,weekend,,26.0,0.0,66
+2026-10-04,Sunday,weekend,,25.7,0.0,76
+2026-10-05,Monday,exam,Mid-sem Day 5 (Engineering lab practicals & viva),26.3,0.0,70
+2026-10-06,Tuesday,exam,Mid-sem Day 6 (Computing lab practicals),26.1,5.8,68
+2026-10-07,Wednesday,exam,Mid-sem Day 7 (Elective course theory exams),26.9,2.5,62
+2026-10-08,Thursday,exam,Mid-sem Day 8 (Open elective & humanities papers),24.8,0.0,67
+2026-10-09,Friday,exam,Mid-sem Day 9 (Final theory papers & project review),22.0,30.8,95
+2026-10-10,Saturday,weekend,Mid-semester exams end (Sat),25.8,0.0,69
+2026-10-11,Sunday,weekend,Post-exam hostel mess feast & movie night,25.0,0.0,59
+2026-10-12,Monday,working,Classes resume,25.6,0.0,62
+2026-10-13,Tuesday,working,,27.5,0.0,68
+2026-10-14,Wednesday,working,Technical symposium committee kickoff meeting,24.4,0.0,72
+2026-10-15,Thursday,working,,26.0,12.4,77
+2026-10-16,Friday,working,Annual cultural fest band auditions & rehearsals,26.5,3.9,71
+2026-10-17,Saturday,weekend,Weekend club activities & IoT project demos,26.1,0.0,72

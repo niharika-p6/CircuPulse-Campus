@@ -1,0 +1,66 @@
+﻿dataset,column_name,meaning,data_type,unit_or_scale,notes,observed_missing_values
+buildings,building_id,Stable identifier for a campus building,string,identifier,Primary building key; used to join other building-level datasets.,0
+buildings,building_name,Human-readable building name,string,—,,0
+buildings,building_type,Building category,string,category,,0
+buildings,floors,Number of floors,integer,floors,,0
+buildings,area_sqm,Building floor area,number,m²,,0
+buildings,design_capacity,Design/nominal capacity recorded for the building,number,people or capacity units (confirm in source documentation),Unit is not explicit in the column name; do not assume without checking README.,0
+buildings,has_solar,Indicator for solar installation,integer/boolean-like,0/1,,0
+buildings,solar_capacity_kw,Installed solar capacity,number,kW,,0
+buildings,year_built,Building construction year,integer,year,,0
+buildings,has_composter,Indicator for on-site composter,integer/boolean-like,0/1,,0
+calendar,date,Calendar date,date,YYYY-MM-DD,Join key to daily_summary.,0
+calendar,day_of_week,Name of weekday,string,weekday name,,0
+calendar,day_type,Calendar/operational day classification,string,category,,0
+calendar,event,Recorded event or note for the date,string,text,Blank values mean no event was recorded; not necessarily proof no event occurred.,73
+calendar,avg_temp_c,Average temperature,number,°C,,0
+calendar,rainfall_mm,Rainfall amount,number,mm,,0
+calendar,humidity_pct,Humidity percentage,number,%,,0
+daily_summary,date,Daily observation date,date,YYYY-MM-DD,Each row represents one building on one date.,0
+daily_summary,building_id,Building identifier,string,identifier,Join to buildings.building_id.,0
+daily_summary,occupancy_avg,Average occupancy recorded for the building/day,number,people/count (confirm source definition),,5
+daily_summary,electricity_kwh,Daily electricity consumption,number,kWh,,11
+daily_summary,water_litres,Daily water consumption,number,L,,11
+daily_summary,solar_generation_kwh,Daily solar energy generated,number,kWh,,0
+daily_summary,wet_organic_kg,Wet/organic waste recorded,number,kg,,9
+daily_summary,dry_recyclable_kg,Dry recyclable waste recorded,number,kg,,0
+daily_summary,ewaste_kg,Electronic waste recorded,number,kg,,0
+daily_summary,hazardous_kg,Hazardous waste recorded,number,kg,,0
+daily_summary,composted_kg,Waste recorded as composted,number,kg,,0
+daily_summary,recycled_kg,Waste recorded as recycled,number,kg,,0
+daily_summary,contamination_pct,Contamination percentage for waste stream,number,%,,0
+daily_summary,landfill_kg,Waste recorded as sent to landfill,number,kg,,0
+hourly_streams,timestamp,Time the measurement refers to,datetime,YYYY-MM-DD HH:MM:SS,Use this for event-time ordering and hourly aggregation.,0
+hourly_streams,received_at,Time the record was received/arrived,datetime,YYYY-MM-DD HH:MM:SS,May be later than timestamp; preserve to analyze delayed arrivals.,0
+hourly_streams,building_id,Building identifier,string,identifier,Join to buildings.building_id.,0
+hourly_streams,electricity_kwh,Electricity recorded for the interval,number,kWh,Confirm interval semantics in source guide.,69
+hourly_streams,water_litres,Water recorded for the interval,number,L,Confirm interval semantics in source guide.,69
+hourly_streams,solar_generation_kwh,Solar generation recorded for the interval,number,kWh,,0
+hourly_streams,footfall,Footfall/count recorded for the interval,number,count,,69
+manual_logs,log_id,Manual record identifier,string,identifier,,0
+manual_logs,logged_at,Time the manual record was logged,datetime,YYYY-MM-DD HH:MM:SS,,0
+manual_logs,logger_role,Role of person entering the record,string,category,,0
+manual_logs,building,Building label as entered in the manual log,string,free text,Aliases and inconsistent spelling are intentionally preserved in raw data.,0
+manual_logs,stream,Resource/waste stream named in the log,string,category,,0
+manual_logs,value,Reported numeric value,number,as specified by unit column,Interpret alongside unit; do not combine values with unlike units without conversion.,13
+manual_logs,unit,Unit attached to the reported value,string,unit label,,13
+manual_logs,note,Additional operator note,string,text,Blank means no note was recorded.,148
+waste_events_train,event_id,Waste event identifier,string,identifier,,0
+waste_events_train,timestamp,Event time,datetime,YYYY-MM-DD HH:MM:SS,,0
+waste_events_train,building_id,Building identifier,string,identifier,Join to buildings.building_id.,0
+waste_events_train,bin_id,Bin identifier,string,identifier,,0
+waste_events_train,weight_g,Measured item/event weight,number,g,,127
+waste_events_train,moisture_pct,Moisture sensor feature,number,%,,129
+waste_events_train,metal_signal,Metal sensor signal,number,source-specific signal units,Do not assume this is grams or a binary value.,125
+waste_events_train,transparency,Transparency sensor feature,number,sensor scale,Scale definition not explicit; preserve as recorded.,116
+waste_events_train,acoustic_hardness,Acoustic/hardness sensor feature,number,sensor scale,Scale definition not explicit; preserve as recorded.,123
+waste_events_train,category,Waste class label,string,class label,Target label for supervised training; do not use as an input feature.,0
+waste_events_test,event_id,Waste event identifier,string,identifier,,0
+waste_events_test,timestamp,Event time,datetime,YYYY-MM-DD HH:MM:SS,,0
+waste_events_test,building_id,Building identifier,string,identifier,,0
+waste_events_test,bin_id,Bin identifier,string,identifier,,0
+waste_events_test,weight_g,Measured item/event weight,number,g,,31
+waste_events_test,moisture_pct,Moisture sensor feature,number,%,,29
+waste_events_test,metal_signal,Metal sensor signal,number,source-specific signal units,Do not assume this is grams or a binary value.,33
+waste_events_test,transparency,Transparency sensor feature,number,sensor scale,Scale definition not explicit; preserve as recorded.,42
+waste_events_test,acoustic_hardness,Acoustic/hardness sensor feature,number,sensor scale,Scale definition not explicit; preserve as recorded.,35

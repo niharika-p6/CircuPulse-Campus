@@ -1,0 +1,22 @@
+dataset,column,missing_count,note
+calendar,event,73,Original missing values preserved; interpret based on context.
+daily_summary,occupancy_avg,5,Original missing values preserved; interpret based on context.
+daily_summary,electricity_kwh,11,Original missing values preserved; interpret based on context.
+daily_summary,water_litres,11,Original missing values preserved; interpret based on context.
+daily_summary,wet_organic_kg,9,Original missing values preserved; interpret based on context.
+hourly_streams,electricity_kwh,69,Original missing values preserved; interpret based on context.
+hourly_streams,water_litres,69,Original missing values preserved; interpret based on context.
+hourly_streams,footfall,69,Original missing values preserved; interpret based on context.
+manual_logs,value,13,Original missing values preserved; interpret based on context.
+manual_logs,unit,13,Original missing values preserved; interpret based on context.
+manual_logs,note,148,Original missing values preserved; interpret based on context.
+waste_events_test,weight_g,31,Original missing values preserved; interpret based on context.
+waste_events_test,moisture_pct,29,Original missing values preserved; interpret based on context.
+waste_events_test,metal_signal,33,Original missing values preserved; interpret based on context.
+waste_events_test,transparency,42,Original missing values preserved; interpret based on context.
+waste_events_test,acoustic_hardness,35,Original missing values preserved; interpret based on context.
+waste_events_train,weight_g,127,Original missing values preserved; interpret based on context.
+waste_events_train,moisture_pct,129,Original missing values preserved; interpret based on context.
+waste_events_train,metal_signal,125,Original missing values preserved; interpret based on context.
+waste_events_train,transparency,116,Original missing values preserved; interpret based on context.
+waste_events_train,acoustic_hardness,123,Original missing values preserved; interpret based on context.

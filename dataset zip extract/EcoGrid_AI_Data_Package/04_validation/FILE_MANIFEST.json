@@ -1,0 +1,127 @@
+[
+  {
+    "file": "ANTIGRAVITY_INSTRUCTIONS.md",
+    "bytes": 1242,
+    "sha256": "e20abe117612be9ed363174c7db149de6ba7ba0a34fe9929e46524266e6199f3"
+  },
+  {
+    "file": "DATASET_GUIDE.md",
+    "bytes": 4456,
+    "sha256": "f8a44ed960e351d4888cbf1851cddda3b60f953d42647727f0e2e2c4a61797d9"
+  },
+  {
+    "file": "EcoGrid_AI_Data_Workbook.xlsx",
+    "bytes": 1510053,
+    "sha256": "0fe1088bb713e0183263facc1af0a12407fee41963c3d7337ccfb9f584dcd789"
+  },
+  {
+    "file": "04_validation/validation_checks.csv",
+    "bytes": 1490,
+    "sha256": "b25564d0aefe9015387468cf64dad25c31795d07e46c45aea39e2d3780d516fb"
+  },
+  {
+    "file": "04_validation/VALIDATION_REPORT.md",
+    "bytes": 2040,
+    "sha256": "8dd23c49067a69852203f4dea1eaf74f4624649ab9e9cd96dc20ceca9942ff45"
+  },
+  {
+    "file": "04_validation/missing_values_report.csv",
+    "bytes": 2005,
+    "sha256": "d218889c62feab29bfdd02ab4fb8ef05d49572891886fb67b3d7c9d41740770b"
+  },
+  {
+    "file": "01_original_files/waste_events_test.xlsx",
+    "bytes": 82741,
+    "sha256": "6d061e7838cdfdd7486b6103d20cc80a2d1a7bf9c1549fea15ddd4fb73096dea"
+  },
+  {
+    "file": "01_original_files/README_data_guide.md",
+    "bytes": 12633,
+    "sha256": "b63610d279243fc59a9c22d50df8b3955b2b17574d865e51ea6e6530fdf4aa62"
+  },
+  {
+    "file": "01_original_files/buildings.xlsx",
+    "bytes": 5696,
+    "sha256": "3ba5aafabe3d8e47830687d2c3ba2671625763af0e0f62602bcd9b0a7b91ac06"
+  },
+  {
+    "file": "01_original_files/calendar.xlsx",
+    "bytes": 10466,
+    "sha256": "496d239b1e1cc501212be875bac4693821826a5358568942d7537807e6c1fa21"
+  },
+  {
+    "file": "01_original_files/waste_events_train.xlsx",
+    "bytes": 332231,
+    "sha256": "3e736be1a1d2bba1bfe36bd8f1f477fc54fd5506d65824858c3d0585e010f018"
+  },
+  {
+    "file": "01_original_files/daily_summary.xlsx",
+    "bytes": 68565,
+    "sha256": "2c0802028085709d17b35279235cb3516c83acce5ae3fe116e87825f2eb3d0ef"
+  },
+  {
+    "file": "01_original_files/hourly_streams.xlsx",
+    "bytes": 774130,
+    "sha256": "4e83207c3759c4f701888d3fbe7d22749cbf2ef8e5bfef1fd6b561038176de61"
+  },
+  {
+    "file": "01_original_files/PROBLEM_STATEMENT_AND_CONSTRAINTS.md",
+    "bytes": 3012,
+    "sha256": "03492c5a42d2fcb5d25e4253403b4e2e42533e3eeaf4fbb552f5dce1b008f3ba"
+  },
+  {
+    "file": "01_original_files/manual_logs.xlsx",
+    "bytes": 23533,
+    "sha256": "b4c4981e63447792d15ba1d99dcc5144b35a2eae346d1cb7f170c103048f2c0e"
+  },
+  {
+    "file": "03_documentation/DATA_DICTIONARY.csv",
+    "bytes": 6068,
+    "sha256": "e3a3cbe3db18b75c68b92800fabefe69b75611370c4a42ef7ee266552a75f260"
+  },
+  {
+    "file": "03_documentation/DATASET_CATALOG.csv",
+    "bytes": 1821,
+    "sha256": "8bbe6462bcb644a22551a1d35adf2a85e7dc7c89a9df577bb43844e5f2ca3303"
+  },
+  {
+    "file": "02_csv_for_antigravity/daily_summary.csv",
+    "bytes": 72459,
+    "sha256": "a493057fde66356d365247ab18d32e40ecd125ff1be38bb9cc8ffd7f334a08ca"
+  },
+  {
+    "file": "02_csv_for_antigravity/buildings.csv",
+    "bytes": 533,
+    "sha256": "5704b7e536c876f5ce1a461a8b29b1f0f521743fb0ba043a57b1c64a5783afe1"
+  },
+  {
+    "file": "02_csv_for_antigravity/waste_events_train.csv",
+    "bytes": 468983,
+    "sha256": "d49418789d5b6e5b1a2f5604b66280c7d3e54ccd69260a687fdb4650cdcd04e6"
+  },
+  {
+    "file": "02_csv_for_antigravity/waste_events_test.csv",
+    "bytes": 101424,
+    "sha256": "508561fb67011b804295ad3980ae1a2ce57162d080231b535bedf6443b0c1375"
+  },
+  {
+    "file": "02_csv_for_antigravity/daily_master.csv",
+    "bytes": 163099,
+    "sha256": "f6f5db70d3697bcc54c56c6dadfc679fc022358578d54d9591b44487b2bba844"
+  },
+  {
+    "file": "02_csv_for_antigravity/manual_logs.csv",
+    "bytes": 37906,
+    "sha256": "977feb9372b0413701fd42c310ece6ea95bbf557c8feb6c4c49338daaa998521"
+  },
+  {
+    "file": "02_csv_for_antigravity/calendar.csv",
+    "bytes": 7104,
+    "sha256": "984311e1782e848a17ceadcfdcba2de5ffc45b973a79b742cbde7de71fbb72f3"
+  },
+  {
+    "file": "02_csv_for_antigravity/hourly_streams.csv",
+    "bytes": 1511210,
+    "sha256": "b7948a17747fc08e6380cb9239b5af5c877516ac3b161fd7509d5ad9d083a7ff"
+  }
+]
