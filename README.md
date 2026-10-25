@@ -103,7 +103,6 @@ p2p/
 ├── app.py                             # Main Streamlit web application
 ├── requirements.txt                   # Production dependencies
 ├── PROMPT_WORKBOOK.md                 # Official prompt evolution log
-├── DEMO_SCRIPT.md                     # 2:30 video demonstration script
 ├── waste_events_test_predictions.csv  # Active field test predictions (1,601 rows)
 ├── modules/
 │   ├── data_loader.py                 # Multi-source relational fusion & normalization
@@ -123,7 +122,6 @@ p2p/
 
 ## 📜 Official Deliverables & Documentation
 * [**Prompt Workbook**](PROMPT_WORKBOOK.md) — Documents AI mentoring role, prompt history, human decisions, and audit trail.
-* [**2.5-Minute Video Pitch Script**](DEMO_SCRIPT.md) — Exact script and screen clicks for hackathon submission.
 * [**Test Stream Predictions**](waste_events_test_predictions.csv) — 1,601 unlabelled active disposal events classified.
 
 ---
